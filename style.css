@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    background-color: #15181f;
+    color: #e5e5e5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div#menu {
+    text-align: center;
+}
+
+div#menu hr {
+    width: 500px;
+}
+
+
+header .avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+}
+
+section#curriculos {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+section#curriculos .Analista-de-suporte-tec {
+    margin: auto 50px auto 50px;
+}
+
+section#curriculos img {
+    border-radius: 30px;
+    border: 1px solid #e5e5e5;
+}
+
+.dev-web:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Adiciona sombra quando o cursor está sobre as imagens */
+
+.curriculos-tec:hover img,
+.curriculos-dev:hover img {
+  box-shadow: 2px 2px 5px rgba(9, 9, 9, 0.4); /* Adapte os valores conforme desejado */
+  transition: box-shadow 0.5s ease; /* Ajuste o tempo da transição conforme desejado */
+}
+
+
+/* Adicionando estilo responsivo para telas menores */
+
+@media screen and (max-width: 400px) {
+    section#curriculos {
+        flex-direction: column;
+    }
+}
