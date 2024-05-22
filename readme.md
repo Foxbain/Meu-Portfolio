@@ -1,6 +1,6 @@
 ## SEJA BEM VINDO AO MEU PORTFÓLIO
 
-[MEU PROJETO](/_imagens/MEU__PROJETO.png)
+![MEU PROJETO](/_imagens/MEU__PROJETO.png)
 
 Este documento é o primeiro site que eu criei com base nos conhecimentos que venho adiquirindo ao longo desses meses.
 
