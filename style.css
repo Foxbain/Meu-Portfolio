@@ -1,64 +1,318 @@
-@charset "UTF-8";
+:root {
+    --main-bg-color: #272829;
+    --main-button-color: #61677a;
+    --primary-color: #fff6e0;
+    --secundary-color: #d8d9da;
+    --font-inter: 'Inter', sans-serif;
+}
 
 * {
-    background-color: #15181f;
-    color: #e5e5e5;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-div#menu {
-    text-align: center;
-}
-
-div#menu hr {
-    width: 500px;
+body {
+    background-color: var(--main-bg-color);
+    margin: 0 0 0 0%;
+    box-sizing: border-box;
 }
 
 
-header .avatar {
-    width: 200px;
-    height: auto;
-    border-radius: 100%;
+.menu__navegacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    margin: 2em 5%;
+    list-style: none;
 }
 
-section#curriculos {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
+.menu__navegacao__nome {
+    display: none;
+
+}
+
+.conteudo {
+    width: 75%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0px 0% 0% 0%;
+    margin: 0 0 0 5%;
+    gap: 50px;
+}
+
+.conteudo__titulo {
+    color: var(--primary-color);
+    font-size: 38px;
+    margin: 0 0 10px 0;
+    font-family: var(--font-inter);
     
+}
 
+.conteudo__subtitulo {
+    color: var(--primary-color);
+    font-size: 25px;
+    width: 230;
+    margin: 0 0 10px 0;
+    font-family: var(--font-inter);
+}
+
+.conteudo__paragrafo {
+    color: var(--secundary-color);
+    font-size: 20px;
+    font-family: var(--font-inter);
+    margin: 10px 0 10px 0;
+}
+
+.conteudo__links {
+    display: flex;
+    justify-content: baseline;
+    margin: 0;
+}
+
+.conteudo__link__suporte {
+    background-color: var(--main-button-color);
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 45%;
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 16px 0;
+    font-family: var(--font-inter);
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    margin: 15px 10px 0 0;
+}
+
+.conteudo__link__dev {
+    background-color: var(--main-button-color);
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 45%;
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 25px 0;
+    font-family: var(--font-inter);
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    margin: 15px 0 0 0;
+}
+
+.conteudo__foto__perfil {
+    width: auto;
+}
+
+/* Footer */
+
+.cabecalho {
+    display: flex;
+    justify-content: baseline;
+    margin: 12% 0 1px 5%;
 }
 
 
-section#curriculos .Analista-de-suporte-tec {
-    margin: auto 50px auto 50px;
-}
-
-section#curriculos img {
-    border-radius: 30px;
-    border: 1px solid #e5e5e5;
-}
-
-.dev-web:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-/* Adiciona sombra quando o cursor está sobre as imagens */
-
-.curriculos-tec:hover img,
-.curriculos-dev:hover img {
-  box-shadow: 2px 2px 5px rgba(9, 9, 9, 0.4); /* Adapte os valores conforme desejado */
-  transition: box-shadow 0.5s ease; /* Ajuste o tempo da transição conforme desejado */
+.cabecalho__lista {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    list-style: none;
+    font-size: 14px;
+    font-family: var(--font-inter);
+    color: var(--primary-color);
+    
 }
 
 
-/* Adicionando estilo responsivo para telas menores */
+@media screen and (max-width: 1024px) {
 
-@media screen and (max-width: 400px) {
-    section#curriculos {
+    .menu__navegacao {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 8em;
+        margin: 5%;  
+        margin-left: 10em;
+        list-style: none;
+        
+    }
+
+    .menu__navegacao__nome {
+        display: block;
+        color: var(--primary-color);
+        font-size: 15px;
+        font-family: var(--font-inter);
+        text-decoration: none;
+    }
+
+
+    .conteudo {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        margin: 0 2em;
+        margin-bottom: 10em;
+
+    }
+
+    .conteudo__titulo {
+        color: var(--primary-color);
+        font-size: 40px;
+        margin: 0 0 10px 0;
+        font-family: var(--font-inter);
+        
+    }
+    
+    .conteudo__subtitulo {
+        color: var(--primary-color);
+        font-size: 35px;
+        width: 230;
+        margin: 0 0 10px 0;
+        font-family: var(--font-inter);
+    }
+    
+    .conteudo__paragrafo {
+        color: var(--secundary-color);
+        font-size: 25px;
+        font-family: var(--font-inter);
+        margin: 10px 0 10px 0;
+    }
+    
+    .conteudo__links {
+        display: flex;
+        justify-content: baseline;
+        margin: 0;
+    }
+
+    .conteudo__foto__perfil {
+        width: 100%;
+        margin-bottom: 10em;
+        
+    }
+
+    .conteudo__links {
+        width: 125%;
+    }
+    .conteudo__link__dev {
+        background-color: var(--main-button-color);
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        border: 2px solid var(--primary-color);
+        border-radius: 50px;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 25px 0;
+        font-family: var(--font-inter);
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: 600;
+        margin: 15px 0 0 0;
+    
+    }
+    .conteudo__link__suporte {
+        background-color: var(--main-button-color);
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        border: 2px solid var(--primary-color);
+        border-radius: 50px;
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 25px 0;
+        font-family: var(--font-inter);
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: 600;
+        margin: 15px 20px 0 0;
+
+    }
+
+    .cabecalho__lista {
+        display: flex;
         flex-direction: column;
+        gap: 0.5em;
+        list-style: none;
+        font-size: 24px;
+        font-family: var(--font-inter);
+        color: var(--primary-color);
+        margin-left: 5em;
+        
+        
     }
 }
+
+@media screen and (max-width: 530px) {
+
+    .menu__navegacao {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1em;
+        margin: 2em 5%;
+        list-style: none;
+    }
+    
+    .menu__navegacao__nome {
+        display: none;
+    
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: baseline;
+
+    }
+
+    .conteudo__foto__perfil {
+        width: 125%;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .conteudo__titulo {
+        font-size: 35px;
+    
+    }
+
+    .conteudo__subtitulo {
+        font-size: 30px;
+    }
+
+    .conteudo__paragrafo {
+        font-size: 20px;
+    }
+
+    .conteudo__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+    }
+
+    .cabecalho__lista {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3em;
+        list-style: none;
+        font-size: 20px;
+        font-family: var(--font-inter);
+        color: var(--primary-color);
+        margin: auto;
+        text-align: center;
+        
+        
+    }
+    
+}
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
