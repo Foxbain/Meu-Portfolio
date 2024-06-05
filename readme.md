@@ -8,6 +8,7 @@ Este documento é o primeiro site que eu criei com base nos conhecimentos que ve
 
 - HTML 5 (Tags, Responsividade, CEO)
 - CSS (Flexbox, Grid)
+- GIT (Atualização, deste portfólio)
 
 ## o porque deste portfólio?
 
