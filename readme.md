@@ -1,18 +1,19 @@
-## SEJA BEM VINDO AO MEU PORTFÓLIO
+## SEJA BEM VINDO AO MEU CURRÍCULO ONLINE
 
 ![MEU PROJETO](/_imagens/MEU__PROJETO.png)
 
-Este documento é o primeiro site que eu criei com base nos conhecimentos que venho adiquirindo ao longo desses meses.
+Este documento é o primeiro site que eu criei e que venho atualizando conforme venho adiquirindo conhecimento como Desenvolvedor Front End.
 
-## Tecnologias que Uso neste portfólio.
+## Tecnologias que Uso neste Projeto.
 
 - HTML 5 (Tags, Responsividade, CEO)
-- CSS (Flexbox, Grid)
+- CSS (Flexbox, Grid Para responsividade e posicionamento)
 - GIT (Atualização, deste portfólio)
+  
 
-## o porque deste portfólio?
+## O porque deste Projeto?
 
-O projeto se iniciou pois queria saber se conseguiria criar uma pagina onde eu poderia inserir, todos os meus Certificadeos, videos de apresentações projetos e fotos em um unico local.
+O projeto se iniciou pois queria saber se conseguiria criar uma pagina onde eu poderia inserir, todos os meus Certificadeos, videos de apresentações projetos e fotos em um unico local. (Como uma "Comoda Digital" onde posso colocar toda minha bagagem profissional e educacional)
 
 Este projeto tem o intuito de facilitar o trabalho do recrutador que ira encontrar todas as informações que precisa dentro deste.
 
