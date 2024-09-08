@@ -1,6 +1,6 @@
 ## SEJA BEM VINDO AO MEU CURRÍCULO ONLINE
 
-![MEU PROJETO](/_imagens/MEU__PROJETO.png)
+![MEU PROJETO](./src/_imagens/MEU__PROJETO.png)
 
 Este documento é o primeiro site que eu criei e que venho atualizando conforme venho adiquirindo conhecimento como Desenvolvedor Front End.
 
