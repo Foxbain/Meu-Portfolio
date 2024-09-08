@@ -6,9 +6,10 @@ Este documento é o primeiro site que eu criei e que venho atualizando conforme 
 
 ## Tecnologias que Uso neste Projeto.
 
-- HTML 5 (Tags, Responsividade, CEO)
-- CSS (Flexbox, Grid Para responsividade e posicionamento)
+- HTML5 (Tags, Responsividade, CEO)
+- CSS3 
 - GIT (Atualização, deste portfólio)
+- TAILWIND (Gostei muito da utilização da ferramenta por ter uma solução rapida e uma documentação muito boa.)
   
 
 ## O porque deste Projeto?
